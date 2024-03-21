@@ -11,15 +11,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import ArrowLeft from './icons/ArrowLeft.vue';
 import ArrowRight from './icons/ArrowRight.vue';
-
+import pic1 from '@/assets/images/pic1.png';
+import pic2 from '@/assets/images/pic2.png';
+import pic3 from '@/assets/images/pic3.png';
+import pic4 from '@/assets/images/pic4.png';
 
 SwiperCore.use([Navigation, Pagination, A11y]);
 
 const images = ref([
-    '@/assets/images/pic4.png',
-    '@/assets/images/pic1.png',
-    '@/assets/images/pic2.png',
-    '@/assets/images/pic3.png',
+    pic1,
+    pic2,
+    pic3,
+    pic4,
 ])
 
 </script>
