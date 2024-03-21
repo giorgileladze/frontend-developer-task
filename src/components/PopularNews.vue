@@ -1,13 +1,14 @@
 <script setup>
 import { computed, ref } from 'vue';
 import ClockIcon from '@/components/icons/ClockIcon.vue'
+import pic from '@/assets/images/pic1.png';
 
 // since no api was provided to fetch data i am hardcoding data in a way that 
 // it can be replaced asilly if api will be available
 const news = ref([
     {
         title: 'დღეიდან ასაწონად განკუთვნილი პოლიეთილენის პარკები აიკრძალა',
-        img: 'src/assets/images/pic1.png'
+        img: pic,
     },
     
 ])

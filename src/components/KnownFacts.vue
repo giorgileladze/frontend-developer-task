@@ -5,6 +5,7 @@ import SwiperCore from 'swiper';
 import { Navigation, Pagination, A11y } from "swiper/modules";
 import ArrowLeft from '@/components/icons/ArrowLeft.vue'
 import ArrowRight from '@/components/icons/ArrowRight.vue'
+import pic from '@/assets/images/pic5.png'
  
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,27 +19,27 @@ SwiperCore.use([Navigation, Pagination, A11y]);
 const facts = ref([
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ',
-        img: 'src/assets/images/pic5.png'
+        img: pic
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ',
-        img: 'src/assets/images/pic5.png'
+        img: pic
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ',
-        img: 'src/assets/images/pic5.png'
+        img: pic
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ',
-        img: 'src/assets/images/pic5.png'
+        img: pic
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ',
-        img: 'src/assets/images/pic5.png'
+        img: pic
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების ',
-        img: 'src/assets/images/pic5.png'
+        img: pic
     }
 ])
 </script>

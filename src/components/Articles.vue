@@ -1,5 +1,10 @@
 <script setup>
 import { ref } from 'vue';
+import pic1 from '@/assets/images/pic1.png';
+import pic2 from '@/assets/images/pic2.png';
+import pic3 from '@/assets/images/pic3.png';
+import pic4 from '@/assets/images/pic4.png';
+import pic5 from '@/assets/images/pic5.png';
 
 // since api is not provided i am hardcodding data in a way that it is reactive and will be easy
 // to change if api will be available in the future
@@ -8,43 +13,43 @@ const articles = ref([
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic5.png'
+        img: pic5
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic1.png'
+        img: pic1
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic3.png'
+        img: pic3
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic4.png'
+        img: pic4
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic2.png'
+        img: pic2
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic3.png'
+        img: pic3
     },
     {
         title: 'ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების',
         date: '12.08.2023',
         category: 'პოლიტიკა',
-        img: 'src/assets/images/pic4.png'
+        img: pic4
     }
 ])
 </script>
