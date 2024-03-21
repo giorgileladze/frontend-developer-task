@@ -16,10 +16,10 @@ import ArrowRight from './icons/ArrowRight.vue';
 SwiperCore.use([Navigation, Pagination, A11y]);
 
 const images = ref([
-    'src/assets/images/pic4.png',
-    'src/assets/images/pic1.png',
-    'src/assets/images/pic2.png',
-    'src/assets/images/pic3.png',
+    '@/assets/images/pic4.png',
+    '@/assets/images/pic1.png',
+    '@/assets/images/pic2.png',
+    '@/assets/images/pic3.png',
 ])
 
 </script>
